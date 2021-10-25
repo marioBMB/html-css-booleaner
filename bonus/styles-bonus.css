@@ -86,35 +86,41 @@ body > header {
 
 body > header img {
     height: 100%;
-    margin-left: 10px;
+    margin-left: 10%;
 }
 
 
-.article-info {
-    color: #888;
+.article-wrapper {
+    width: 80%;
+    margin: 0 auto;
 }
 
-.article-info address {
-    font-style: normal;
-    font-size: 1.2rem;
-}
 
-    address a {
-        text-decoration: none;
+    .article-info {
+        color: #888;
     }
 
-.article-info time {
-    font-size: 1rem;
-}
+    .article-info address {
+        font-style: normal;
+        font-size: 1.2rem;
+    }
 
-.gallery {
-    margin: 20px 0 0 0;
-}
+        address a {
+            text-decoration: none;
+        }
 
-.gallery  img {
-    width: 48%;
-    height: 365px;
-}
+    .article-info time {
+        font-size: 1rem;
+    }
+
+    .gallery {
+        margin: 20px 0 0 0;
+    }
+
+    .gallery  img {
+        width: 48%;
+        height: 365px;
+    }
 
 section.body {
     margin-top: 0;
